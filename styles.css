@@ -78,4 +78,9 @@ footer button {
 #botaoNovoQuiz[style="display: none;"] {
     display: none;
 }
+.container{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
