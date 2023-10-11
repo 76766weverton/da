@@ -32,16 +32,19 @@
 </body>
 <script>
 const perguntas = [
-    { pergunta: 'Paris é a capital da França?', resposta: 'Certo', motivoErrado: 'Paris é a capital da França.' },
-    { pergunta: 'Miguel de Cervantes escreveu "Dom Quixote"?', resposta: 'Certo', motivoErrado: 'Miguel de Cervantes é o autor de "Dom Quixote".' },
-    { pergunta: 'O Sol é uma estrela?', resposta: 'Certo', motivoErrado: 'O Sol é uma estrela.' },
-    { pergunta: 'A água ferve a 100 graus Celsius?', resposta: 'Certo', motivoErrado: 'A água ferve a 100 graus Celsius.' },
-    { pergunta: 'A Terra é plana?', resposta: 'Errado', motivoErrado: 'A Terra é um objeto esférico.' },
-    { pergunta: 'O açúcar é salgado?', resposta: 'Errado', motivoErrado: 'O açúcar é doce.' },
-    { pergunta: 'A Lua é maior do que a Terra?', resposta: 'Errado', motivoErrado: 'A Lua é menor do que a Terra.' },
-    { pergunta: 'O zero é um número par?', resposta: 'Certo', motivoErrado: 'O zero é um número par.' },
-    { pergunta: 'A água ferve a 50 graus Celsius?', resposta: 'Errado', motivoErrado: 'A água ferve a 100 graus Celsius.' },
-    // Adicione mais perguntas aqui
+{ pergunta: 'A liberdade de manifestação do pensamento deve exercer-se, em regra, com a identificação do autor, mas essa exigência não veda a utilização de pseudônimos em obras artísticas, por exemplo.', resposta: 'Certo', motivoErrado: '' },
+    { pergunta: 'O texto constitucional permite expressamente o anonimato em algumas circunstâncias, em decorrência da inviolabilidade do direito à intimidade.', resposta: 'Errado', motivoErrado: '' },
+    { pergunta: 'Não obstante a previsão constitucional de inviolabilidade da casa do indivíduo, é permitido nela adentrar, a qualquer hora do dia ou da noite, para o cumprimento de mandado judicial que tenha decretado prisão preventiva.', resposta: 'Errado', motivoErrado: '' },
+    { pergunta: 'Para a realização de reuniões pacíficas, sem armas, em locais abertos ao público, faz-se necessária apenas a simples autorização da autoridade competente, que será dada sempre que não houver frustração de reunião anteriormente convocada para o mesmo local.', resposta: 'Errado', motivoErrado: 'XVI - todos podem reunir-se pacificamente, sem armas, em locais abertos ao público, independentemente de autorização, desde que não frustrem outra reunião anteriormente convocada para o mesmo local, sendo apenas exigido prévio aviso à autoridade' },
+    { pergunta: 'Segundo o texto constitucional, enquanto a prática do racismo e a ação de grupos armados contra o Estado democrático são crimes inafiançáveis e imprescritíveis, a tortura, o tráfico ilícito de entorpecentes, o terrorismo e os crimes hediondos, de forma geral, apesar de inafiançáveis, são passíveis de prescrição.', resposta: 'Certo', motivoErrado: '' },
+    { pergunta: 'Uma pessoa vítima de notícia falsa profundamente nociva à sua honra deverá escolher, em eventual pleito judicial, entre o direito de resposta e a indenização pelo dano causado.', resposta: 'Errado', motivoErrado: 'A questão está ERRADA. A vítima de ato nocivo à honra não precisa escolher entre um ou outro, pois tem direito de exigir, cumulativamente, tanto o direito de resposta quanto a indenização por dano material, moral ou à imagem, nos termos do artigo 5º, V, da CF/88.' },
+    { pergunta: 'É vedado ao poder público interferir na criação ou no funcionamento de uma associação formada por um grupo de amigos, independentemente de sua finalidade.', resposta: 'Errado', motivoErrado: 'A questão está ERRADA. O artigo 5º, XVII e XVIII, da CF/88, consagram como direito fundamental a liberdade de associação para fins lícitos, vedada a de caráter paramilitar. Sendo assim, observada a finalidade lícita, as associações podem ser criadas independente de autorização, sendo vedado ao poder público interferir em seu funcionamento. ' },
+    { pergunta: 'Considere-se que um cidadão estrangeiro tenha sido condenado por crime de opinião em seu país de origem, mas, antes de cumprir a pena, tenha fugido para o Brasil, onde foi preso. Nessa situação hipotética, é vedada a extradição desse cidadão estrangeiro.', resposta: 'Certo', motivoErrado: '' },
+    { pergunta: 'Na hipótese de governador de estado ter determinado o uso emergencial de propriedade particular por causa de iminente e grave perigo público, após a devolução da propriedade pelo ente público, o proprietário poderá pleitear indenização, desde que tenha havido dano à propriedade.', resposta: 'Certo', motivoErrado: '' },
+    { pergunta: 'O direito à proteção dos dados pessoais é garantia fundamental, prevista expressamente na CF, dos brasileiros e dos estrangeiros residentes no país.', resposta: 'Certo', motivoErrado: '' },
+    { pergunta: 'Todos têm direito a receber dos órgãos públicos informações de seu interesse particular, ou de interesse coletivo ou geral, que serão prestadas no prazo da lei, sob pena de responsabilidade, ressalvadas aquelas cujo sigilo seja imprescindível à segurança da sociedade e do Estado.', resposta: 'Certo', motivoErrado: '' },
+    { pergunta: 'A CF assegura o direito à proteção dos dados pessoais, inclusive nos meios digitais.', resposta: 'Certo', motivoErrado: '' },
+    
 ];
 
 const perguntaElement = document.getElementById('pergunta');
