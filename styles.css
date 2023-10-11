@@ -1,0 +1,81 @@
+/* Reset de estilos e estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Define a altura mínima da página como 100% da altura da viewport (tela) */
+    display: flex;
+    flex-direction: column; /* Define um layout em coluna para o body */
+}
+button {
+ 
+    display: inline-block;
+    width: 90px;
+    padding: 10px 1px;
+    font-size: 16px;
+    background-image: linear-gradient(to bottom, #0bdddd, #273b64);
+    background-color: #130303;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    margin: 0 10px; /* Adicione essa linha para criar espaço igual à esquerda e à direita de cada botão */
+}/* Adicione essa linha para criar espaço entre os botões */
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o artigo (seção principal) */
+article {
+    flex: 1; /* Faz o artigo preencher o espaço restante */
+    padding: 20px;
+}
+
+
+
+/* Estilos para o rodapé */
+/* ... Outros estilos ... */
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Distribui os botões igualmente */
+    align-items: center; /* Centraliza verticalmente os botões */
+}
+
+footer button {
+    width: 25%; /* Distribui igualmente o espaço entre os botões */
+    margin: 5px; /* Espaçamento entre os botões */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para o botão "Novo Quiz" quando display é "none" */
+#botaoNovoQuiz[style="display: none;"] {
+    display: none;
+}
+
