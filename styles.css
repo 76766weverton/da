@@ -21,7 +21,7 @@ button {
     width: 90px;
     padding: 10px 1px;
     font-size: 16px;
-    background-image: linear-gradient(to bottom, #0e37a8d5, #7089a0);
+    background-image: linear-gradient(to bottom, #cad2e9d5, #000000);
     background-color: #130303;
     color: #ffffff;
     border: none;
@@ -57,6 +57,7 @@ article {
 
 /* Estilos para o rodapé */
 footer {
+    border-radius: 10px;
     background-color: #ffffff56;
     color: #fff;
     text-align: center;
