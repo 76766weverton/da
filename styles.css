@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
 }
 
 body {
+    background-color: #7089a0;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -84,7 +86,7 @@ footer button {
     margin-bottom: 20px;
     border-radius: 5px;
     text-align: center;
-    background-color: #05010134;
+    background-color: #ffffff56;
 
 
   
