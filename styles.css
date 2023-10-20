@@ -19,7 +19,7 @@ button {
     width: 90px;
     padding: 10px 1px;
     font-size: 16px;
-    background-image: linear-gradient(to bottom, #1af71ad5, #0888ff);
+    background-image: linear-gradient(to bottom, #0e37a8d5, #7089a0);
     background-color: #130303;
     color: #ffffff;
     border: none;
@@ -82,5 +82,17 @@ footer button {
     font-size: 17px;
     font-weight: bold;
     margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #05010134;
+
+
+  
+  
+ 
+}
+
+.pergunta{
+    color: #007bff;
 }
 

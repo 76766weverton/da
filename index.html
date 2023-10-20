@@ -78,7 +78,7 @@ function mostrarPergunta() {
         respostaUsuarioElement.textContent = '';
         respondido = false; // Permite que a próxima pergunta seja respondida
     } else {
-        perguntaElement.textContent = 'Quiz concluído!';
+        perguntaElement.textContent = 'Simulado concluído!';
         respostaUsuarioElement.textContent = `Acertos: ${acertos}, Erros: ${erros}`;
         botaoProximo.style.display = 'none'; // Oculta o botão "Próximo" no final do quiz
     }
@@ -113,7 +113,7 @@ botaoProximo.addEventListener('click', function () {
         perguntaAtual++; // Avança para a próxima pergunta quando o botão "Próximo" é clicado
         mostrarPergunta();
     } else {
-        perguntaElement.textContent = 'Quiz concluído!';
+        perguntaElement.textContent = 'Simulado concluído!';
         respostaUsuarioElement.textContent = `Acertos: ${acertos}, Erros: ${erros}`;
         botaoProximo.style.display = 'none'; // Oculta o botão "Próximo" no final do quiz
     }
